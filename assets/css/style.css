@@ -1,0 +1,239 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+#welcome-section {
+	background-image: url('http://innovationplans.com/idesign/alex/img/bg1.jpg');
+	background-size: cover;
+	height: 100vh;
+  width: 100%;
+}
+
+header {
+	/*padding: 20px;*/
+	/*border: 1px solid black;*/
+	position: fixed;
+}
+#logo-name {
+	/*float: left;*/
+	font-size: 25px;
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+}
+
+#navbar {
+	display: inline-block;
+  padding: 10px;
+  font-size: 22px;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+}
+
+.nav-links {
+	margin-left: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-links:hover {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+#about {
+	color: #fff;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 150px;
+}
+
+#about p {
+	font-size: 25px;
+  padding-bottom: 40px;
+}
+
+#about h1 {
+	font-size: 60px;
+  padding-bottom: 40px;
+}
+
+#projects {
+	background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701662899.jpg');
+	background-size: cover;
+	height: 100vh;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	padding-top: 130px;
+}
+
+#projects h2 {
+	color: #fff;
+	text-decoration: underline;
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+
+.project-img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.project-tile {
+	text-align: center;
+	border: 1px solid;
+	margin: 40px;
+	width: 300px;
+}
+
+.project-links {
+	background-color: #ecf0f1;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000;
+	font-size: 18px;
+}
+
+#profile-link {
+	background-color: #ecf0f1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000;
+	font-size: 18px;	
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact {
+	padding: 20px;
+}
+
+#contact h2 {
+	text-align: center;
+	font-size: 45px;
+	padding-bottom: 20px;
+}
+
+#contact p {
+	text-align: center;
+	font-size: 20px;
+}
+
+footer {
+	padding: 20px;
+	background-color: #ecf0f1;
+	text-align: center;
+}
+
+@media (max-width: 480px) {
+	#navbar {
+		display: none;
+	}
+
+	#logo-name {
+		font-size: 20px;
+		display: inline-block;
+		color: #fff;
+		padding: 10px;
+	}
+
+	#about {
+		color: #fff;
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 75px;
+	}
+
+	#about p {
+		font-size: 15px;
+	  padding-bottom: 20px;
+	}
+
+	#about h1 {
+		font-size: 35px;
+	  padding-bottom: 20px;
+	}
+
+	#welcome-section {
+		background-image: url('http://innovationplans.com/idesign/alex/img/bg1.jpg');
+		background-size: cover;
+		height: 100%;
+	  width: 100%;
+	}
+
+	#projects {
+		background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701662899.jpg');
+		background-size: cover;
+		width: auto;
+		height: 100%;
+		padding-top: 30px;
+	}
+
+	#projects h2 {
+		color: #fff;
+		text-decoration: underline;
+		font-size: 25px;
+		padding-bottom: 30px;
+	}
+
+	.project-img {
+		display: block;
+		width: 200px;
+		height: auto;
+	}
+
+	.flex-container {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 20px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.project-tile {
+		align-self: center;
+		border: 1px solid;
+		margin: 20px;
+		width: 200px;
+	}
+
+	.project-links {
+		background-color: #ecf0f1;
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #000;
+		font-size: 18px;
+	}
+
+	#profile-link {
+		background-color: #ecf0f1;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		color: #000;
+		font-size: 15px;	
+		display: block;
+		width: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
